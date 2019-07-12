@@ -1,28 +1,109 @@
-"ID" "MM"
+"ID" "More_Music"
 "Name" "More Music"
 "Desc" "More music for BEE!"
+//More Music Portal 2-style music segment
 "Music"
 {
-	"ID" "CM_1"
+	"ID" "MM_P2S_1"
 	"Name" "Bent and Broken"
 	"ShortName" "Bent and Broken"
 	"Sort_key" "1"
-	"Group" "More Music"
+	"Group" "MM P2-Style"
 	"Icon" "music/rex/rex_00_intro"
 	"IconLarge" "music_lrg/rex/rex_00_intro"
 	"Authors" "Kevin MacLeod"
 	"Description" "Bent and Broken duration: 4:27."
 	"Sample" "Bent_and_Broken.ogg"
 	"loop_len" "4:27"
-	"SoundScript" "BEE2/music/Bent_and_Broken.mp3"
+	"SoundScript" "BEE2/music_p2style/Bent_and_Broken.mp3"
 }
 
 "Music"
 {
-	"ID" "CM_2"
+	"ID" "MM_P2S_2"
+	"Name" "Crypto"
+	"ShortName" "Crypto"
+	"Sort_key" "2"
+	"Group" "MM P2-Style"
+	"Icon" "music/rex/rex_00_intro"
+	"IconLarge" "music_lrg/rex/rex_00_intro"
+	"Authors" "Kevin MacLeod"
+	"Description" "Crypto duration: 3:24."
+	"Sample" "Crypto.ogg"
+	"loop_len" "3:24"
+	"SoundScript" "BEE2/music/Crypto.mp3"
+}
+
+"Music"
+{
+	"ID" "MM_P2S_3"
+	"Name" "Decay"
+	"ShortName" "Decay"
+	"Sort_key" "3"
+	"Group" "MM P2-Style"
+	"Icon" "music/rex/rex_00_intro"
+	"IconLarge" "music_lrg/rex/rex_00_intro"
+	"Authors" "Kevin MacLeod"
+	"Description" "Decay duration: 4:38."
+	"Sample" "Decay.ogg"
+	"loop_len" "4:38"
+	"SoundScript" "BEE2/music/Decay.mp3"
+}
+
+"Music"
+{
+	"ID" "MM_P2S_4"
+	"Name" "Killers"
+	"ShortName" "Killers"
+	"Sort_key" "4"
+	"Group" "MM P2-Style"
+	"Icon" "music/rex/rex_00_intro"
+	"IconLarge" "music_lrg/rex/rex_00_intro"
+	"Authors" "Kevin MacLeod"
+	"Description" "Killers duration: 5:05."
+	"Sample" "Killers.ogg"
+	"loop_len" "5:05"
+	"SoundScript" "BEE2/music/Killers.mp3"
+}
+
+"Music"
+{
+	"ID" "MM_P2S_5"
+	"Name" "Psychedelic Crater"
+	"ShortName" "Psychedelic Crater"
+	"Sort_key" "5"
+	"Group" "MM P2-Style"
+	"Icon" "music/rex/rex_00_intro"
+	"IconLarge" "music_lrg/rex/rex_00_intro"
+	"Authors" "Kevin MacLeod"
+	"Description" "Psychedelic Crater duration: 3:20."
+	"Sample" "Psychedelic_Crater.ogg"
+	"loop_len" "3:20"
+	"SoundScript" "BEE2/music/Psychedelic_Crater.mp3"
+}
+
+"Music"
+{
+	"ID" "MM_P2S_6"
+	"Name" "Unseen Horrors"
+	"ShortName" "Unseen Horrors"
+	"Sort_key" "6"
+	"Group" "MM P2-Style"
+	"Icon" "music/rex/rex_00_intro"
+	"IconLarge" "music_lrg/rex/rex_00_intro"
+	"Authors" "Kevin MacLeod"
+	"Description" "Unseen Horrors duration: 4:11."
+	"Sample" "Unseen_Horrors.ogg"
+	"loop_len" "4:11"
+	"SoundScript" "BEE2/music/Unseen_Horrors.mp3"
+}
+//More Music standard music segment
+"Music"
+{
+	"ID" "MM_STD_1"
 	"Name" "Brittle Rille"
 	"ShortName" "Brittle Rille"
-	"Sort_key" "2"
+	"Sort_key" "1"
 	"Group" "More Music"
 	"Icon" "music/rex/rex_00_intro"
 	"IconLarge" "music_lrg/rex/rex_00_intro"
@@ -35,10 +116,10 @@
 
 "Music"
 {
-	"ID" "CM_3"
+	"ID" "MM_STD_2"
 	"Name" "Clash Defiant"
 	"ShortName" "Clash Defiant"
-	"Sort_key" "3"
+	"Sort_key" "2"
 	"Group" "More Music"
 	"Icon" "music/rex/rex_00_intro"
 	"IconLarge" "music_lrg/rex/rex_00_intro"
@@ -51,10 +132,10 @@
 
 "Music"
 {
-	"ID" "CM_4"
+	"ID" "MM_STD_3"
 	"Name" "Clenched Teeth"
 	"ShortName" "Clenched Teeth"
-	"Sort_key" "4"
+	"Sort_key" "3"
 	"Group" "More Music"
 	"Icon" "music/rex/rex_00_intro"
 	"IconLarge" "music_lrg/rex/rex_00_intro"
@@ -65,44 +146,14 @@
 	"SoundScript" "BEE2/music/Clenched_Teeth.mp3"
 }
 
-"Music"
-{
-	"ID" "CM_5"
-	"Name" "Crypto"
-	"ShortName" "Crypto"
-	"Sort_key" "5"
-	"Group" "More Music"
-	"Icon" "music/rex/rex_00_intro"
-	"IconLarge" "music_lrg/rex/rex_00_intro"
-	"Authors" "Kevin MacLeod"
-	"Description" "Crypto duration: 3:24."
-	"Sample" "Crypto.ogg"
-	"loop_len" "3:24"
-	"SoundScript" "BEE2/music/Crypto.mp3"
-}
+
 
 "Music"
 {
-	"ID" "CM_6"
-	"Name" "Decay"
-	"ShortName" "Decay"
-	"Sort_key" "6"
-	"Group" "More Music"
-	"Icon" "music/rex/rex_00_intro"
-	"IconLarge" "music_lrg/rex/rex_00_intro"
-	"Authors" "Kevin MacLeod"
-	"Description" "Decay duration: 4:38."
-	"Sample" "Decay.ogg"
-	"loop_len" "4:38"
-	"SoundScript" "BEE2/music/Decay.mp3"
-}
-
-"Music"
-{
-	"ID" "CM_7"
+	"ID" "MM_STD_4"
 	"Name" "Fresh Air"
 	"ShortName" "Fresh Air"
-	"Sort_key" "7"
+	"Sort_key" "4"
 	"Group" "More Music"
 	"Icon" "music/rex/rex_00_intro"
 	"IconLarge" "music_lrg/rex/rex_00_intro"
@@ -115,10 +166,10 @@
 
 "Music"
 {
-	"ID" "CM_8"
+	"ID" "MM_STD_5"
 	"Name" "Giant Wyrm"
 	"ShortName" "Giant Wyrm"
-	"Sort_key" "8"
+	"Sort_key" "5"
 	"Group" "More Music"
 	"Icon" "music/rex/rex_00_intro"
 	"IconLarge" "music_lrg/rex/rex_00_intro"
@@ -131,10 +182,10 @@
 
 "Music"
 {
-	"ID" "CM_9"
+	"ID" "MM_STD_6"
 	"Name" "Hush"
 	"ShortName" "Hush"
-	"Sort_key" "9"
+	"Sort_key" "6"
 	"Group" "More Music"
 	"Icon" "music/rex/rex_00_intro"
 	"IconLarge" "music_lrg/rex/rex_00_intro"
@@ -147,10 +198,10 @@
 
 "Music"
 {
-	"ID" "CM_10"
+	"ID" "MM_STD_7"
 	"Name" "Ice Demon"
 	"ShortName" "Ice Demon"
-	"Sort_key" "10"
+	"Sort_key" "7"
 	"Group" "More Music"
 	"Icon" "music/rex/rex_00_intro"
 	"IconLarge" "music_lrg/rex/rex_00_intro"
@@ -163,10 +214,10 @@
 
 "Music"
 {
-	"ID" "CM_11"
+	"ID" "MM_STD_8"
 	"Name" "Infinite Perspective"
 	"ShortName" "Infinite Perspective"
-	"Sort_key" "11"
+	"Sort_key" "8"
 	"Group" "More Music"
 	"Icon" "music/rex/rex_00_intro"
 	"IconLarge" "music_lrg/rex/rex_00_intro"
@@ -179,26 +230,10 @@
 
 "Music"
 {
-	"ID" "CM_12"
-	"Name" "Killers"
-	"ShortName" "Killers"
-	"Sort_key" "12"
-	"Group" "More Music"
-	"Icon" "music/rex/rex_00_intro"
-	"IconLarge" "music_lrg/rex/rex_00_intro"
-	"Authors" "Kevin MacLeod"
-	"Description" "Killers duration: 5:05."
-	"Sample" "Killers.ogg"
-	"loop_len" "5:05"
-	"SoundScript" "BEE2/music/Killers.mp3"
-}
-
-"Music"
-{
-	"ID" "CM_13"
+	"ID" "MM_STD_9"
 	"Name" "Magic Forest"
 	"ShortName" "Magic Forest"
-	"Sort_key" "11"
+	"Sort_key" "9"
 	"Group" "More Music"
 	"Icon" "music/rex/rex_00_intro"
 	"IconLarge" "music_lrg/rex/rex_00_intro"
@@ -211,10 +246,10 @@
 
 "Music"
 {
-	"ID" "CM_14"
+	"ID" "MM_STD_10"
 	"Name" "Numinous Shine"
 	"ShortName" "Numinous Shine"
-	"Sort_key" "12"
+	"Sort_key" "10"
 	"Group" "More Music"
 	"Icon" "music/rex/rex_00_intro"
 	"IconLarge" "music_lrg/rex/rex_00_intro"
@@ -227,26 +262,10 @@
 
 "Music"
 {
-	"ID" "CM_15"
-	"Name" "Psychedelic Crater"
-	"ShortName" "Psychedelic Crater"
-	"Sort_key" "11"
-	"Group" "More Music"
-	"Icon" "music/rex/rex_00_intro"
-	"IconLarge" "music_lrg/rex/rex_00_intro"
-	"Authors" "Kevin MacLeod"
-	"Description" "Psychedelic Crater duration: 3:20."
-	"Sample" "Psychedelic_Crater.ogg"
-	"loop_len" "3:20"
-	"SoundScript" "BEE2/music/Psychedelic_Crater.mp3"
-}
-
-"Music"
-{
-	"ID" "CM_16"
+	"ID" "MM_STD_11"
 	"Name" "Return of Lazarus"
 	"ShortName" "Return of Lazarus"
-	"Sort_key" "12"
+	"Sort_key" "11"
 	"Group" "More Music"
 	"Icon" "music/rex/rex_00_intro"
 	"IconLarge" "music_lrg/rex/rex_00_intro"
@@ -259,10 +278,10 @@
 
 "Music"
 {
-	"ID" "CM_17"
+	"ID" "MM_STD_12"
 	"Name" "Right Behind You"
 	"ShortName" "Right Behind You"
-	"Sort_key" "11"
+	"Sort_key" "12"
 	"Group" "More Music"
 	"Icon" "music/rex/rex_00_intro"
 	"IconLarge" "music_lrg/rex/rex_00_intro"
@@ -275,10 +294,10 @@
 
 "Music"
 {
-	"ID" "CM_18"
+	"ID" "MM_STD_13"
 	"Name" "Soaring"
 	"ShortName" "Soaring"
-	"Sort_key" "12"
+	"Sort_key" "13"
 	"Group" "More Music"
 	"Icon" "music/rex/rex_00_intro"
 	"IconLarge" "music_lrg/rex/rex_00_intro"
@@ -291,10 +310,10 @@
 
 "Music"
 {
-	"ID" "CM_19"
+	"ID" "MM_STD_14"
 	"Name" "Static Motion"
 	"ShortName" "Static Motion"
-	"Sort_key" "11"
+	"Sort_key" "14"
 	"Group" "More Music"
 	"Icon" "music/rex/rex_00_intro"
 	"IconLarge" "music_lrg/rex/rex_00_intro"
@@ -307,10 +326,10 @@
 
 "Music"
 {
-	"ID" "CM_20"
+	"ID" "MM_STD_15"
 	"Name" "String Impromptu N.1"
 	"ShortName" "String Impromptu N.1"
-	"Sort_key" "12"
+	"Sort_key" "15"
 	"Group" "More Music"
 	"Icon" "music/rex/rex_00_intro"
 	"IconLarge" "music_lrg/rex/rex_00_intro"
@@ -323,10 +342,10 @@
 
 "Music"
 {
-	"ID" "CM_21"
+	"ID" "MM_STD_16"
 	"Name" "This House"
 	"ShortName" "This House"
-	"Sort_key" "11"
+	"Sort_key" "16"
 	"Group" "More Music"
 	"Icon" "music/rex/rex_00_intro"
 	"IconLarge" "music_lrg/rex/rex_00_intro"
@@ -339,10 +358,10 @@
 
 "Music"
 {
-	"ID" "CM_22"
+	"ID" "MM_STD_17"
 	"Name" "To the Ends"
 	"ShortName" "To the Ends"
-	"Sort_key" "12"
+	"Sort_key" "17"
 	"Group" "More Music"
 	"Icon" "music/rex/rex_00_intro"
 	"IconLarge" "music_lrg/rex/rex_00_intro"
@@ -355,26 +374,10 @@
 
 "Music"
 {
-	"ID" "CM_23"
-	"Name" "Unseen Horrors"
-	"ShortName" "Unseen Horrors"
-	"Sort_key" "11"
-	"Group" "More Music"
-	"Icon" "music/rex/rex_00_intro"
-	"IconLarge" "music_lrg/rex/rex_00_intro"
-	"Authors" "Kevin MacLeod"
-	"Description" "Unseen Horrors duration: 4:11."
-	"Sample" "Unseen_Horrors.ogg"
-	"loop_len" "4:11"
-	"SoundScript" "BEE2/music/Unseen_Horrors.mp3"
-}
-
-"Music"
-{
-	"ID" "CM_24"
+	"ID" "MM_STD_18"
 	"Name" "Vortex"
 	"ShortName" "Vortex"
-	"Sort_key" "12"
+	"Sort_key" "18"
 	"Group" "More Music"
 	"Icon" "music/rex/rex_00_intro"
 	"IconLarge" "music_lrg/rex/rex_00_intro"
@@ -387,10 +390,10 @@
 
 "Music"
 {
-	"ID" "CM_25"
+	"ID" "MM_STD_19"
 	"Name" "Water Prelude"
 	"ShortName" "Water Prelude"
-	"Sort_key" "11"
+	"Sort_key" "19"
 	"Group" "More Music"
 	"Icon" "music/rex/rex_00_intro"
 	"IconLarge" "music_lrg/rex/rex_00_intro"
@@ -403,10 +406,10 @@
 
 "Music"
 {
-	"ID" "CM_26"
+	"ID" "MM_STD_20"
 	"Name" "Welcome to HorrorLand"
 	"ShortName" "Welcome to HorrorLand"
-	"Sort_key" "12"
+	"Sort_key" "20"
 	"Group" "More Music"
 	"Icon" "music/rex/rex_00_intro"
 	"IconLarge" "music_lrg/rex/rex_00_intro"
@@ -416,7 +419,339 @@
 	"loop_len" "4:10"
 	"SoundScript" "BEE2/music/Welcome_to_HorrorLand.mp3"
 }
+//More Music Portal 2 SoundTrack segment
+"Music"
+{
+	"ID" "MM_P2ST_1"
+	"Name" "Reconstructing More Science"
+	"ShortName" "More Science"
+	"Sort_key" "1"
+	"Group" "MM P2 SoundTrack"
+	"Icon" "music/rex/rex_00_intro"
+	"IconLarge" "music_lrg/rex/rex_00_intro"
+	"Authors" "VALVe"
+	"Description" "Reconstructing More Science duration: 2:36."
+	"Sample" "01-Reconstructing_More_Science.ogg"
+	"loop_len" "2:36"
+	"SoundScript" "BEE2/p2_music/01-Reconstructing_More_Science.mp3"
+}
 
+"Music"
+{
+	"ID" "MM_P2ST_2"
+	"Name" "Science is Fun"
+	"ShortName" "Science is Fun"
+	"Sort_key" "2"
+	"Group" "MM P2 SoundTrack"
+	"Icon" "music/rex/rex_00_intro"
+	"IconLarge" "music_lrg/rex/rex_00_intro"
+	"Authors" "VALVe"
+	"Description" "Science is Fun duration: 2:33."
+	"Sample" "01-Science_is_Fun.ogg"
+	"loop_len" "2:33"
+	"SoundScript" "BEE2/p2_music/01-Science_is_Fun.mp3"
+}
 
+"Music"
+{
+	"ID" "MM_P2ST_3"
+	"Name" "Concentration Enhancing Menu Initialiser"
+	"ShortName" "0Concentrationm menu"
+	"Sort_key" "3"
+	"Group" "MM P2 SoundTrack"
+	"Icon" "music/rex/rex_00_intro"
+	"IconLarge" "music_lrg/rex/rex_00_intro"
+	"Authors" "VALVe"
+	"Description" "Welcome to HorrorLand duration: 2:16."
+	"Sample" "02-Concentration_Enhancing_Menu_Initialiser.ogg"
+	"loop_len" "2:16"
+	"SoundScript" "BEE2/p2_music/02-Concentration_Enhancing_Menu_Initialiser.mp3"
+}
 
+"Music"
+{
+	"ID" "MM_P2ST_4"
+	"Name" "02-Wheatley_Science"
+	"ShortName" "02-Wheatley_Science"
+	"Sort_key" "4"
+	"Group" "MM P2 SoundTrack"
+	"Icon" "music/rex/rex_00_intro"
+	"IconLarge" "music_lrg/rex/rex_00_intro"
+	"Authors" "VALVe"
+	"Description" "Wheatley Science duration: 2:29."
+	"Sample" "02-Wheatley_Science.ogg"
+	"loop_len" "2:29"
+	"SoundScript" "BEE2/p2_music/02-Wheatley_Science.mp3"
+}
 
+"Music"
+{
+	"ID" "MM_P2ST_5"
+	"Name" "Bots Build Bots"
+	"ShortName" "Bots Build Bots"
+	"Sort_key" "5"
+	"Group" "MM P2 SoundTrack"
+	"Icon" "music/rex/rex_00_intro"
+	"IconLarge" "music_lrg/rex/rex_00_intro"
+	"Authors" "VALVe"
+	"Description" "Bots Build Bots duration: 4:07."
+	"Sample" "03-Bots_Build_Bots.ogg"
+	"loop_len" "4:07"
+	"SoundScript" "BEE2/p2_music/03-Bots_Build_Bots.mp3"
+}
+
+"Music"
+{
+	"ID" "MM_P2ST_6"
+	"Name" "Excursion Funnel"
+	"ShortName" "Excursion Funnel"
+	"Sort_key" "6"
+	"Group" "MM P2 SoundTrack"
+	"Icon" "music/rex/rex_00_intro"
+	"IconLarge" "music_lrg/rex/rex_00_intro"
+	"Authors" "VALVe"
+	"Description" "Excursion Funnel duration: 4:32. used for excursion funnel music"
+	"Sample" "05-Excursion_Funnel.ogg"
+	"loop_len" "4:32"
+	"SoundScript" "BEE2/p2_music/05-Excursion_Funnel.mp3"
+}
+
+"Music"
+{
+	"ID" "MM_P2ST_7"
+	"Name" "The Part Where He Kills You"
+	"ShortName" "The Part Where He Kills You"
+	"Sort_key" "7"
+	"Group" "MM P2 SoundTrack"
+	"Icon" "music/rex/rex_00_intro"
+	"IconLarge" "music_lrg/rex/rex_00_intro"
+	"Authors" "VALVe"
+	"Description" "The Part Where He Kills You duration: 3:23."
+	"Sample" "07-The_Part_Where_He_Kills_You.ogg"
+	"loop_len" "3:23"
+	"SoundScript" "BEE2/p2_music/07-The_Part_Where_He_Kills_You.mp3"
+}
+
+"Music"
+{
+	"ID" "MM_P2ST_8"
+	"Name" "Bombs for Throwing at You"
+	"ShortName" "Bombs for Throwing at You"
+	"Sort_key" "8"
+	"Group" "MM P2 SoundTrack"
+	"Icon" "music/rex/rex_00_intro"
+	"IconLarge" "music_lrg/rex/rex_00_intro"
+	"Authors" "VALVe"
+	"Description" "Bombs for Throwing at You duration: 5:48."
+	"Sample" "09-Bombs_for_Throwing_at_You.ogg"
+	"loop_len" "5:48"
+	"SoundScript" "BEE2/p2_music/09-Bombs_for_Throwing_at_You.mp3"
+}
+
+"Music"
+{
+	"ID" "MM_P2ST_9"
+	"Name" "Dont Do It"
+	"ShortName" "Dont Do It"
+	"Sort_key" "9"
+	"Group" "MM P2 SoundTrack"
+	"Icon" "music/rex/rex_00_intro"
+	"IconLarge" "music_lrg/rex/rex_00_intro"
+	"Authors" "VALVe"
+	"Description" "Dont Do It duration: 5:16."
+	"Sample" "10-Dont_Do_It.ogg"
+	"loop_len" "5:16"
+	"SoundScript" "BEE2/p2_music/10-Dont_Do_It.mp3"
+}
+
+"Music"
+{
+	"ID" "MM_P2ST_10"
+	"Name" "Your Precious Moon"
+	"ShortName" "Your Precious Moon"
+	"Sort_key" "10"
+	"Group" "MM P2 SoundTrack"
+	"Icon" "music/rex/rex_00_intro"
+	"IconLarge" "music_lrg/rex/rex_00_intro"
+	"Authors" "VALVe"
+	"Description" "Your Precious Moon duration: 1:55."
+	"Sample" "10-Your_Precious_Moon.ogg"
+	"loop_len" "1:55"
+	"SoundScript" "BEE2/p2_music/10-Your_Precious_Moon.mp3"
+}
+
+"Music"
+{
+	"ID" "MM_P2ST_11"
+	"Name" "Caroline Deleted"
+	"ShortName" "Caroline Deleted"
+	"Sort_key" "11"
+	"Group" "MM P2 SoundTrack"
+	"Icon" "music/rex/rex_00_intro"
+	"IconLarge" "music_lrg/rex/rex_00_intro"
+	"Authors" "VALVe"
+	"Description" "Caroline Deleted duration: 1:50."
+	"Sample" "11-Caroline_Deleted.ogg"
+	"loop_len" "1:50"
+	"SoundScript" "BEE2/p2_music/11-Caroline_Deleted.mp3"
+}
+
+"Music"
+{
+	"ID" "MM_P2ST_12"
+	"Name" "I AM NOT A MORON"
+	"ShortName" "I AM NOT A MORON"
+	"Sort_key" "12"
+	"Group" "MM P2 SoundTrack"
+	"Icon" "music/rex/rex_00_intro"
+	"IconLarge" "music_lrg/rex/rex_00_intro"
+	"Authors" "VALVe"
+	"Description" "I AM NOT A MORON duration: 3:46."
+	"Sample" "11-I_AM_NOT_A_MORON.ogg"
+	"loop_len" "3:46"
+	"SoundScript" "BEE2/p2_music/11-I_AM_NOT_A_MORON.mp3"
+}
+
+"Music"
+{
+	"ID" "MM_P2ST_13"
+	"Name" "You Know Her?"
+	"ShortName" "You Know Her?"
+	"Sort_key" "13"
+	"Group" "MM P2 SoundTrack"
+	"Icon" "music/rex/rex_00_intro"
+	"IconLarge" "music_lrg/rex/rex_00_intro"
+	"Authors" "VALVe"
+	"Description" "You Know Her? duration: 3:10."
+	"Sample" "11-You_Know_Her.ogg"
+	"loop_len" "3:10"
+	"SoundScript" "BEE2/p2_music/11-You_Know_Her.mp3"
+}
+
+"Music"
+{
+	"ID" "MM_P2ST_14"
+	"Name" "15 Acres of Broken Glass"
+	"ShortName" "15 Acres of Broken Glass"
+	"Sort_key" "14"
+	"Group" "MM P2 SoundTrack"
+	"Icon" "music/rex/rex_00_intro"
+	"IconLarge" "music_lrg/rex/rex_00_intro"
+	"Authors" "VALVe"
+	"Description" "15 Acres of Broken Glass duration: 4:59."
+	"Sample" "13-15_Acres_of_Broken_Glass.ogg"
+	"loop_len" "4:59"
+	"SoundScript" "BEE2/p2_music/13-15_Acres_of_Broken_Glass.mp3"
+}
+
+"Music"
+{
+	"ID" "MM_P2ST_15"
+	"Name" "Spaaaaace"
+	"ShortName" "Spaaaaace"
+	"Sort_key" "15"
+	"Group" "MM P2 SoundTrack"
+	"Icon" "music/rex/rex_00_intro"
+	"IconLarge" "music_lrg/rex/rex_00_intro"
+	"Authors" "VALVe"
+	"Description" "Spaaaaace duration: 0:45."
+	"Sample" "14-Spaaaaace.ogg"
+	"loop_len" "0:45"
+	"SoundScript" "BEE2/p2_music/14-Spaaaaace.mp3"
+}
+
+"Music"
+{
+	"ID" "MM_P2ST_16"
+	"Name" "Hard Sunshine"
+	"ShortName" "Hard Sunshine"
+	"Sort_key" "16"
+	"Group" "MM P2 SoundTrack"
+	"Icon" "music/rex/rex_00_intro"
+	"IconLarge" "music_lrg/rex/rex_00_intro"
+	"Authors" "VALVe"
+	"Description" "Hard Sunshine duration: 2:48."
+	"Sample" "16-Hard_Sunshine.ogg"
+	"loop_len" "2:48"
+	"SoundScript" "BEE2/p2_music/16-Hard_Sunshine.mp3"
+}
+
+"Music"
+{
+	"ID" "MM_P2ST_17"
+	"Name" "Some Assembly Required"
+	"ShortName" "Some Assembly Required"
+	"Sort_key" "17"
+	"Group" "MM P2 SoundTrack"
+	"Icon" "music/rex/rex_00_intro"
+	"IconLarge" "music_lrg/rex/rex_00_intro"
+	"Authors" "VALVe"
+	"Description" "Some Assembly Required duration: 1:50."
+	"Sample" "16-Some_Assembly_Required.ogg"
+	"loop_len" "1:50"
+	"SoundScript" "BEE2/p2_music/16-Some_Assembly_Required.mp3"
+}
+
+"Music"
+{
+	"ID" "MM_P2ST_18"
+	"Name" "I Am Different"
+	"ShortName" "I Am Different"
+	"Sort_key" "18"
+	"Group" "MM P2 SoundTrack"
+	"Icon" "music/rex/rex_00_intro"
+	"IconLarge" "music_lrg/rex/rex_00_intro"
+	"Authors" "VALVe"
+	"Description" "I Am Different duration: 4:28."
+	"Sample" "17-I_Am_Different.ogg"
+	"loop_len" "4:28"
+	"SoundScript" "BEE2/p2_music/17-I_Am_Different.mp3"
+}
+
+"Music"
+{
+	"ID" "MM_P2ST_19"
+	"Name" "I Made It All Up"
+	"ShortName" "I Mad It All Up"
+	"Sort_key" "19"
+	"Group" "MM P2 SoundTrack"
+	"Icon" "music/rex/rex_00_intro"
+	"IconLarge" "music_lrg/rex/rex_00_intro"
+	"Authors" "VALVe"
+	"Description" "I Made It All Up duration: 3:56."
+	"Sample" "20-I_Made_It_All_Up.ogg"
+	"loop_len" "3:56"
+	"SoundScript" "BEE2/p2_music/20-I_Made_It_All_Up.mp3"
+}
+
+"Music"
+{
+	"ID" "MM_P2ST_20"
+	"Name" "Comedy Equals Tragedy Plus Time"
+	"ShortName" "Comedy Equals Tragedy"
+	"Sort_key" "20"
+	"Group" "MM P2 SoundTrack"
+	"Icon" "music/rex/rex_00_intro"
+	"IconLarge" "music_lrg/rex/rex_00_intro"
+	"Authors" "VALVe"
+	"Description" "Comedy Equals Tragedy Plus Time duration: 3:29."
+	"Sample" "21-Comedy_Equals_Tragedy_Plus_Time.ogg"
+	"loop_len" "3:29"
+	"SoundScript" "BEE2/p2_music/21-Comedy_Equals_Tragedy_Plus_Time.mp3"
+}
+
+"Music"
+{
+	"ID" "MM_P2ST_21"
+	"Name" "You Saved Science"
+	"ShortName" "You Saved Science"
+	"Sort_key" "21"
+	"Group" "MM P2 SoundTrack"
+	"Icon" "music/rex/rex_00_intro"
+	"IconLarge" "music_lrg/rex/rex_00_intro"
+	"Authors" "VALVe"
+	"Description" "You Saved Science duration: 0:47."
+	"Sample" "23-You_Saved_Science.ogg"
+	"loop_len" "0:47"
+	"SoundScript" "BEE2/p2_music/23-You_Saved_Science.mp3"
+}

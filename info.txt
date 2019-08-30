@@ -58,7 +58,7 @@
 	"Sort_key" "4"
 	"Group" "MM P2-Style"
 	"Icon" "music/module_P2-styled"
-	"IconLarge" "music_lrg/module_P2-styled
+	"IconLarge" "music_lrg/module_P2-styled"
 	"Authors" "Kevin MacLeod"
 	"Description" "Killers duration: 5:05."
 	"Sample" "Killers.ogg"
@@ -366,7 +366,7 @@
 	"Icon" "music/module_standard"
 	"IconLarge" "music_lrg/module_standard"
 	"Authors" "Kevin MacLeod"
-	"Description" "To the Ends Impromptu Number 1 duration: 1:44."
+	"Description" "To the Ends duration: 1:44."
 	"Sample" "To_the_Ends.ogg"
 	"loop_len" "1:44"
 	"SoundScript" "BEE2/music/To_the_Ends.mp3"
@@ -431,7 +431,7 @@
 	"IconLarge" "music_lrg/module_P2_soundtrack"
 	"Authors" "VALVe"
 	"Description" "Reconstructing More Science duration: 2:36."
-	"Sample" "01-Reconstructing_More_Science.ogg"
+	"Sample" "soundtrack/01-Reconstructing_More_Science.ogg"
 	"loop_len" "2:36"
 	"SoundScript" "BEE2/p2_music/01-Reconstructing_More_Science.mp3"
 }
@@ -447,7 +447,7 @@
 	"IconLarge" "music_lrg/module_P2_soundtrack"
 	"Authors" "VALVe"
 	"Description" "Science is Fun duration: 2:33."
-	"Sample" "01-Science_is_Fun.ogg"
+	"Sample" "soundtrack/01-Science_is_Fun.ogg"
 	"loop_len" "2:33"
 	"SoundScript" "BEE2/p2_music/01-Science_is_Fun.mp3"
 }
@@ -462,8 +462,8 @@
 	"Icon" "music/module_P2_soundtrack"
 	"IconLarge" "music_lrg/module_P2_soundtrack"
 	"Authors" "VALVe"
-	"Description" "Welcome to HorrorLand duration: 2:16."
-	"Sample" "02-Concentration_Enhancing_Menu_Initialiser.ogg"
+	"Description" "Concentration Enhancing Menu Initialiser duration: 2:16."
+	"Sample" "soundtrack/02-Concentration_Enhancing_Menu_Initialiser.ogg"
 	"loop_len" "2:16"
 	"SoundScript" "BEE2/p2_music/02-Concentration_Enhancing_Menu_Initialiser.mp3"
 }
@@ -479,7 +479,7 @@
 	"IconLarge" "music_lrg/module_P2_soundtrack"
 	"Authors" "VALVe"
 	"Description" "Wheatley Science duration: 2:29."
-	"Sample" "02-Wheatley_Science.ogg"
+	"Sample" "soundtrack/02-Wheatley_Science.ogg"
 	"loop_len" "2:29"
 	"SoundScript" "BEE2/p2_music/02-Wheatley_Science.mp3"
 }
@@ -495,7 +495,7 @@
 	"IconLarge" "music_lrg/module_P2_soundtrack"
 	"Authors" "VALVe"
 	"Description" "Bots Build Bots duration: 4:07."
-	"Sample" "03-Bots_Build_Bots.ogg"
+	"Sample" "soundtrack/03-Bots_Build_Bots.ogg"
 	"loop_len" "4:07"
 	"SoundScript" "BEE2/p2_music/03-Bots_Build_Bots.mp3"
 }
@@ -511,9 +511,13 @@
 	"IconLarge" "music_lrg/module_P2_soundtrack"
 	"Authors" "VALVe"
 	"Description" "Excursion Funnel duration: 4:32. used for excursion funnel music"
-	"Sample" "05-Excursion_Funnel.ogg"
+	"Sample" "soundtrack/05-Excursion_Funnel.ogg"
 	"loop_len" "4:32"
-	"SoundScript" "BEE2/p2_music/05-Excursion_Funnel.mp3"
+	"SoundScript"
+	{
+		"tBeam" "BEE2/p2_music/05-Excursion_Funnel.mp3"
+		"base" "BEE2/p2_music/05-Excursion_Funnel.mp3"
+	}
 }
 
 "Music"
@@ -527,7 +531,7 @@
 	"IconLarge" "music_lrg/module_P2_soundtrack"
 	"Authors" "VALVe"
 	"Description" "The Part Where He Kills You duration: 3:23."
-	"Sample" "07-The_Part_Where_He_Kills_You.ogg"
+	"Sample" "soundtrack/07-The_Part_Where_He_Kills_You.ogg"
 	"loop_len" "3:23"
 	"SoundScript" "BEE2/p2_music/07-The_Part_Where_He_Kills_You.mp3"
 }
@@ -543,7 +547,7 @@
 	"IconLarge" "music_lrg/module_P2_soundtrack"
 	"Authors" "VALVe"
 	"Description" "Bombs for Throwing at You duration: 5:48."
-	"Sample" "09-Bombs_for_Throwing_at_You.ogg"
+	"Sample" "soundtrack/09-Bombs_for_Throwing_at_You.ogg"
 	"loop_len" "5:48"
 	"SoundScript" "BEE2/p2_music/09-Bombs_for_Throwing_at_You.mp3"
 }
@@ -559,7 +563,7 @@
 	"IconLarge" "music_lrg/module_P2_soundtrack"
 	"Authors" "VALVe"
 	"Description" "Dont Do It duration: 5:16."
-	"Sample" "10-Dont_Do_It.ogg"
+	"Sample" "soundtrack/10-Dont_Do_It.ogg"
 	"loop_len" "5:16"
 	"SoundScript" "BEE2/p2_music/10-Dont_Do_It.mp3"
 }
@@ -575,7 +579,7 @@
 	"IconLarge" "music_lrg/module_P2_soundtrack"
 	"Authors" "VALVe"
 	"Description" "Your Precious Moon duration: 1:55."
-	"Sample" "10-Your_Precious_Moon.ogg"
+	"Sample" "soundtrack/10-Your_Precious_Moon.ogg"
 	"loop_len" "1:55"
 	"SoundScript" "BEE2/p2_music/10-Your_Precious_Moon.mp3"
 }
@@ -591,7 +595,7 @@
 	"IconLarge" "music_lrg/module_P2_soundtrack"
 	"Authors" "VALVe"
 	"Description" "Caroline Deleted duration: 1:50."
-	"Sample" "11-Caroline_Deleted.ogg"
+	"Sample" "soundtrack/11-Caroline_Deleted.ogg"
 	"loop_len" "1:50"
 	"SoundScript" "BEE2/p2_music/11-Caroline_Deleted.mp3"
 }
@@ -607,7 +611,7 @@
 	"IconLarge" "music_lrg/module_P2_soundtrack"
 	"Authors" "VALVe"
 	"Description" "I AM NOT A MORON duration: 3:46."
-	"Sample" "11-I_AM_NOT_A_MORON.ogg"
+	"Sample" "soundtrack/11-I_AM_NOT_A_MORON.ogg"
 	"loop_len" "3:46"
 	"SoundScript" "BEE2/p2_music/11-I_AM_NOT_A_MORON.mp3"
 }
@@ -623,7 +627,7 @@
 	"IconLarge" "music_lrg/module_P2_soundtrack"
 	"Authors" "VALVe"
 	"Description" "You Know Her? duration: 3:10."
-	"Sample" "11-You_Know_Her.ogg"
+	"Sample" "soundtrack/11-You_Know_Her.ogg"
 	"loop_len" "3:10"
 	"SoundScript" "BEE2/p2_music/11-You_Know_Her.mp3"
 }
@@ -639,7 +643,7 @@
 	"IconLarge" "music_lrg/module_P2_soundtrack"
 	"Authors" "VALVe"
 	"Description" "15 Acres of Broken Glass duration: 4:59."
-	"Sample" "13-15_Acres_of_Broken_Glass.ogg"
+	"Sample" "soundtrack/13-15_Acres_of_Broken_Glass.ogg"
 	"loop_len" "4:59"
 	"SoundScript" "BEE2/p2_music/13-15_Acres_of_Broken_Glass.mp3"
 }
@@ -655,7 +659,7 @@
 	"IconLarge" "music_lrg/module_P2_soundtrack"
 	"Authors" "VALVe"
 	"Description" "Spaaaaace duration: 0:45."
-	"Sample" "14-Spaaaaace.ogg"
+	"Sample" "soundtrack/14-Spaaaaace.ogg"
 	"loop_len" "0:45"
 	"SoundScript" "BEE2/p2_music/14-Spaaaaace.mp3"
 }
@@ -671,7 +675,7 @@
 	"IconLarge" "music_lrg/module_P2_soundtrack"
 	"Authors" "VALVe"
 	"Description" "Hard Sunshine duration: 2:48."
-	"Sample" "16-Hard_Sunshine.ogg"
+	"Sample" "soundtrack/16-Hard_Sunshine.ogg"
 	"loop_len" "2:48"
 	"SoundScript" "BEE2/p2_music/16-Hard_Sunshine.mp3"
 }
@@ -687,7 +691,7 @@
 	"IconLarge" "music_lrg/module_P2_soundtrack"
 	"Authors" "VALVe"
 	"Description" "Some Assembly Required duration: 1:50."
-	"Sample" "16-Some_Assembly_Required.ogg"
+	"Sample" "soundtrack/16-Some_Assembly_Required.ogg"
 	"loop_len" "1:50"
 	"SoundScript" "BEE2/p2_music/16-Some_Assembly_Required.mp3"
 }
@@ -703,7 +707,7 @@
 	"IconLarge" "music_lrg/module_P2_soundtrack"
 	"Authors" "VALVe"
 	"Description" "I Am Different duration: 4:28."
-	"Sample" "17-I_Am_Different.ogg"
+	"Sample" "soundtrack/17-I_Am_Different.ogg"
 	"loop_len" "4:28"
 	"SoundScript" "BEE2/p2_music/17-I_Am_Different.mp3"
 }
@@ -719,7 +723,7 @@
 	"IconLarge" "music_lrg/module_P2_soundtrack"
 	"Authors" "VALVe"
 	"Description" "I Made It All Up duration: 3:56."
-	"Sample" "20-I_Made_It_All_Up.ogg"
+	"Sample" "soundtrack/20-I_Made_It_All_Up.ogg"
 	"loop_len" "3:56"
 	"SoundScript" "BEE2/p2_music/20-I_Made_It_All_Up.mp3"
 }
@@ -735,7 +739,7 @@
 	"IconLarge" "music_lrg/module_P2_soundtrack"
 	"Authors" "VALVe"
 	"Description" "Comedy Equals Tragedy Plus Time duration: 3:29."
-	"Sample" "21-Comedy_Equals_Tragedy_Plus_Time.ogg"
+	"Sample" "soundtrack/21-Comedy_Equals_Tragedy_Plus_Time.ogg"
 	"loop_len" "3:29"
 	"SoundScript" "BEE2/p2_music/21-Comedy_Equals_Tragedy_Plus_Time.mp3"
 }
@@ -751,7 +755,7 @@
 	"IconLarge" "music_lrg/module_P2_soundtrack"
 	"Authors" "VALVe"
 	"Description" "You Saved Science duration: 0:47."
-	"Sample" "23-You_Saved_Science.ogg"
+	"Sample" "soundtrack/23-You_Saved_Science.ogg"
 	"loop_len" "0:47"
 	"SoundScript" "BEE2/p2_music/23-You_Saved_Science.mp3"
 }

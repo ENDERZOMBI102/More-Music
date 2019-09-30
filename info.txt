@@ -343,7 +343,7 @@
 {
 	"ID" "MM_STD_15"
 	"Name" "String Impromptu N.1"
-	"ShortName" "String Impromptu N.1"
+	"ShortName" "String Impromptu"
 	"Sort_key" "15"
 	"Group" "More Music"
 	"Icon" "music/module_standard"
@@ -423,7 +423,7 @@
 {
 	"ID" "MM_STD_20"
 	"Name" "Welcome to HorrorLand"
-	"ShortName" "Welcome to HorrorLand"
+	"ShortName" "Welcome to"
 	"Sort_key" "20"
 	"Group" "More Music"
 	"Icon" "music/module_standard"
@@ -503,7 +503,7 @@
 {
 	"ID" "MM_P2ST_3"
 	"Name" "Concentration Enhancing Menu Initialiser"
-	"ShortName" "0Concentrationm menu"
+	"ShortName" "Concentrationm menu"
 	"Sort_key" "3"
 	"Group" "MM P2 SoundTrack"
 	"Icon" "music/module_P2_soundtrack"
@@ -518,8 +518,8 @@
 "Music"
 {
 	"ID" "MM_P2ST_4"
-	"Name" "02-Wheatley_Science"
-	"ShortName" "02-Wheatley_Science"
+	"Name" "Wheatley Science"
+	"ShortName" "Wheatley Science"
 	"Sort_key" "4"
 	"Group" "MM P2 SoundTrack"
 	"Icon" "music/module_P2_soundtrack"
@@ -571,7 +571,7 @@
 {
 	"ID" "MM_P2ST_7"
 	"Name" "The Part Where He Kills You"
-	"ShortName" "The Part Where He Kills You"
+	"ShortName" "The Part Where"
 	"Sort_key" "7"
 	"Group" "MM P2 SoundTrack"
 	"Icon" "music/module_P2_soundtrack"
@@ -587,7 +587,7 @@
 {
 	"ID" "MM_P2ST_8"
 	"Name" "Bombs for Throwing at You"
-	"ShortName" "Bombs for Throwing at You"
+	"ShortName" "Bombs for"
 	"Sort_key" "8"
 	"Group" "MM P2 SoundTrack"
 	"Icon" "music/module_P2_soundtrack"

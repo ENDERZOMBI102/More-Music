@@ -31,7 +31,7 @@
 	"Description" "Crypto duration: 3:24."
 	"Sample" "Crypto.ogg"
 	"loop_len" "3:24"
-	"SoundScript" "BEE2/music/Crypto.mp3"
+	"SoundScript" "BEE2/music_p2style/Crypto.mp3"
 }
 
 "Music"
@@ -47,7 +47,7 @@
 	"Description" "Decay duration: 4:38."
 	"Sample" "Decay.ogg"
 	"loop_len" "4:38"
-	"SoundScript" "BEE2/music/Decay.mp3"
+	"SoundScript" "BEE2/music_p2style/Decay.mp3"
 }
 
 "Music"
@@ -63,7 +63,7 @@
 	"Description" "Killers duration: 5:05."
 	"Sample" "Killers.ogg"
 	"loop_len" "5:05"
-	"SoundScript" "BEE2/music/Killers.mp3"
+	"SoundScript" "BEE2/music_p2style/Killers.mp3"
 }
 
 "Music"
@@ -79,7 +79,7 @@
 	"Description" "Psychedelic Crater duration: 3:20."
 	"Sample" "Psychedelic_Crater.ogg"
 	"loop_len" "3:20"
-	"SoundScript" "BEE2/music/Psychedelic_Crater.mp3"
+	"SoundScript" "BEE2/music_p2style/Psychedelic_Crater.mp3"
 }
 
 "Music"
@@ -95,7 +95,22 @@
 	"Description" "Unseen Horrors duration: 4:11."
 	"Sample" "Unseen_Horrors.ogg"
 	"loop_len" "4:11"
-	"SoundScript" "BEE2/music/Unseen_Horrors.mp3"
+	"SoundScript" "BEE2/music_p2style/Unseen_Horrors.mp3"
+}
+"Music"
+{
+	"ID" "MM_P2S_7"
+	"Name" "Lightless Dawn"
+	"ShortName" "Lightless Dawn"
+	"Sort_key" "7"
+	"Group" "MM P2-Style"
+	"Icon" "music/module_P2-styled"
+	"IconLarge" "music_lrg/module_P2-styled"
+	"Authors" "Kevin MacLeod"
+	"Description" "lightless dawn duration: 6:19."
+	"Sample" "lightless-dawn.ogg"
+	"loop_len" "6:19"
+	"SoundScript" "BEE2/music_p2style/lightless-dawn.mp3"
 }
 //More Music standard music segment
 "Music"
@@ -418,6 +433,38 @@
 	"Sample" "Welcome_to_HorrorLand.ogg"
 	"loop_len" "4:10"
 	"SoundScript" "BEE2/music/Welcome_to_HorrorLand.mp3"
+}
+
+"Music"
+{
+	"ID" "MM_STD_21"
+	"Name" "Beauty Flow"
+	"ShortName" "Beauty Flow"
+	"Sort_key" "21"
+	"Group" "More Music"
+	"Icon" "music/module_standard"
+	"IconLarge" "music_lrg/module_standard"
+	"Authors" "Kevin MacLeod"
+	"Description" "beauty flow duration: 7:13."
+	"Sample" "beauty-flow.ogg"
+	"loop_len" "7:13"
+	"SoundScript" "BEE2/music/beauty-flow.mp3"
+}
+
+"Music"
+{
+	"ID" "MM_STD_22"
+	"Name" "inspired"
+	"ShortName" "inspired"
+	"Sort_key" "22"
+	"Group" "More Music"
+	"Icon" "music/module_standard"
+	"IconLarge" "music_lrg/module_standard"
+	"Authors" "Kevin MacLeod"
+	"Description" "binspired duration: 4:46."
+	"Sample" "inspired.ogg"
+	"loop_len" "4:46"
+	"SoundScript" "BEE2/music/inspired.mp3"
 }
 //More Music Portal 2 SoundTrack segment
 "Music"

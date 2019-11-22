@@ -682,22 +682,6 @@
 "Music"
 {
 	"ID" "MM_P2ST_14"
-	"Name" "15 Acres of Broken Glass"
-	"ShortName" "15 Acres of Broken Glass"
-	"Sort_key" "14"
-	"Group" "MM P2 SoundTrack"
-	"Icon" "music/module_P2_soundtrack"
-	"IconLarge" "music_lrg/module_P2_soundtrack"
-	"Authors" "VALVe"
-	"Description" "15 Acres of Broken Glass duration: 4:59."
-	"Sample" "soundtrack/13-15_Acres_of_Broken_Glass.ogg"
-	"loop_len" "4:59"
-	"SoundScript" "BEE2/p2_music/13-15_Acres_of_Broken_Glass.mp3"
-}
-
-"Music"
-{
-	"ID" "MM_P2ST_15"
 	"Name" "Spaaaaace"
 	"ShortName" "Spaaaaace"
 	"Sort_key" "15"
@@ -713,7 +697,7 @@
 
 "Music"
 {
-	"ID" "MM_P2ST_16"
+	"ID" "MM_P2ST_15"
 	"Name" "Hard Sunshine"
 	"ShortName" "Hard Sunshine"
 	"Sort_key" "16"
@@ -729,7 +713,7 @@
 
 "Music"
 {
-	"ID" "MM_P2ST_17"
+	"ID" "MM_P2ST_16"
 	"Name" "Some Assembly Required"
 	"ShortName" "Some Assembly Required"
 	"Sort_key" "17"
@@ -745,7 +729,7 @@
 
 "Music"
 {
-	"ID" "MM_P2ST_18"
+	"ID" "MM_P2ST_17"
 	"Name" "I Am Different"
 	"ShortName" "I Am Different"
 	"Sort_key" "18"
@@ -761,7 +745,7 @@
 
 "Music"
 {
-	"ID" "MM_P2ST_19"
+	"ID" "MM_P2ST_18"
 	"Name" "I Made It All Up"
 	"ShortName" "I Mad It All Up"
 	"Sort_key" "19"
@@ -777,7 +761,7 @@
 
 "Music"
 {
-	"ID" "MM_P2ST_20"
+	"ID" "MM_P2ST_19"
 	"Name" "Comedy Equals Tragedy Plus Time"
 	"ShortName" "Comedy Equals Tragedy"
 	"Sort_key" "20"
@@ -793,7 +777,7 @@
 
 "Music"
 {
-	"ID" "MM_P2ST_21"
+	"ID" "MM_P2ST_20"
 	"Name" "You Saved Science"
 	"ShortName" "You Saved Science"
 	"Sort_key" "21"

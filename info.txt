@@ -13,7 +13,7 @@
 	"IconLarge" "music_lrg/module_P2-styled"
 	"Authors" "Kevin MacLeod"
 	"Description" "Bent and Broken duration: 4:27."
-	"Sample" "Bent_and_Broken.ogg"
+	"Sample" "p2-style/Bent_and_Broken.ogg"
 	"loop_len" "4:27"
 	"SoundScript" "BEE2/music_p2style/Bent_and_Broken.mp3"
 }
@@ -29,7 +29,7 @@
 	"IconLarge" "music_lrg/module_P2-styled"
 	"Authors" "Kevin MacLeod"
 	"Description" "Crypto duration: 3:24."
-	"Sample" "Crypto.ogg"
+	"Sample" "p2-style/Crypto.ogg"
 	"loop_len" "3:24"
 	"SoundScript" "BEE2/music_p2style/Crypto.mp3"
 }
@@ -45,7 +45,7 @@
 	"IconLarge" "music_lrg/module_P2-styled"
 	"Authors" "Kevin MacLeod"
 	"Description" "Decay duration: 4:38."
-	"Sample" "Decay.ogg"
+	"Sample" "p2-style/Decay.ogg"
 	"loop_len" "4:38"
 	"SoundScript" "BEE2/music_p2style/Decay.mp3"
 }
@@ -61,7 +61,7 @@
 	"IconLarge" "music_lrg/module_P2-styled"
 	"Authors" "Kevin MacLeod"
 	"Description" "Killers duration: 5:05."
-	"Sample" "Killers.ogg"
+	"Sample" "p2-style/Killers.ogg"
 	"loop_len" "5:05"
 	"SoundScript" "BEE2/music_p2style/Killers.mp3"
 }
@@ -77,7 +77,7 @@
 	"IconLarge" "music_lrg/module_P2-styled"
 	"Authors" "Kevin MacLeod"
 	"Description" "Psychedelic Crater duration: 3:20."
-	"Sample" "Psychedelic_Crater.ogg"
+	"Sample" "p2-style/Psychedelic_Crater.ogg"
 	"loop_len" "3:20"
 	"SoundScript" "BEE2/music_p2style/Psychedelic_Crater.mp3"
 }
@@ -93,7 +93,7 @@
 	"IconLarge" "music_lrg/module_P2-styled"
 	"Authors" "Kevin MacLeod"
 	"Description" "Unseen Horrors duration: 4:11."
-	"Sample" "Unseen_Horrors.ogg"
+	"Sample" "p2-style/Unseen_Horrors.ogg"
 	"loop_len" "4:11"
 	"SoundScript" "BEE2/music_p2style/Unseen_Horrors.mp3"
 }
@@ -108,9 +108,25 @@
 	"IconLarge" "music_lrg/module_P2-styled"
 	"Authors" "Kevin MacLeod"
 	"Description" "lightless dawn duration: 6:19."
-	"Sample" "lightless-dawn.ogg"
+	"Sample" "p2-style/lightless-dawn.ogg"
 	"loop_len" "6:19"
 	"SoundScript" "BEE2/music_p2style/lightless-dawn.mp3"
+}
+
+"Music"
+{
+	"ID" "MM_P2S_8"
+	"Name" "Beauty Flow"
+	"ShortName" "Beauty Flow"
+	"Sort_key" "8"
+	"Group" "More Music"
+	"Icon" "music/module_standard"
+	"IconLarge" "music_lrg/module_standard"
+	"Authors" "Kevin MacLeod"
+	"Description" "beauty flow duration: 7:13."
+	"Sample" "p2-style/beauty-flow.ogg"
+	"loop_len" "7:13"
+	"SoundScript" "BEE2/music/beauty-flow.mp3"
 }
 //More Music standard music segment
 "Music"
@@ -320,7 +336,11 @@
 	"Description" "Soaring duration: 6:20."
 	"Sample" "Soaring.ogg"
 	"loop_len" "6:20"
-	"SoundScript" "BEE2/music/Soaring.mp3"
+	"SoundScript" 
+	{
+		"tBeam" "BEE2/music/Soaring.mp3"
+		"base" "BEE2/music/Soaring.mp3"
+	}
 }
 
 "Music"
@@ -374,41 +394,9 @@
 "Music"
 {
 	"ID" "MM_STD_17"
-	"Name" "To the Ends"
-	"ShortName" "To the Ends"
-	"Sort_key" "17"
-	"Group" "More Music"
-	"Icon" "music/module_standard"
-	"IconLarge" "music_lrg/module_standard"
-	"Authors" "Kevin MacLeod"
-	"Description" "To the Ends duration: 1:44."
-	"Sample" "To_the_Ends.ogg"
-	"loop_len" "1:44"
-	"SoundScript" "BEE2/music/To_the_Ends.mp3"
-}
-
-"Music"
-{
-	"ID" "MM_STD_18"
-	"Name" "Vortex"
-	"ShortName" "Vortex"
-	"Sort_key" "18"
-	"Group" "More Music"
-	"Icon" "music/module_standard"
-	"IconLarge" "music_lrg/module_standard"
-	"Authors" "Kevin MacLeod"
-	"Description" "Vortex duration: 0:58."
-	"Sample" "Vortex.ogg"
-	"loop_len" "0:58"
-	"SoundScript" "BEE2/music/Vortexds.mp3"
-}
-
-"Music"
-{
-	"ID" "MM_STD_19"
 	"Name" "Water Prelude"
 	"ShortName" "Water Prelude"
-	"Sort_key" "19"
+	"Sort_key" "17"
 	"Group" "More Music"
 	"Icon" "music/module_standard"
 	"IconLarge" "music_lrg/module_standard"
@@ -416,47 +404,19 @@
 	"Description" "Water Prelude duration: 5:24."
 	"Sample" "Water_Prelude.ogg"
 	"loop_len" "5:24"
-	"SoundScript" "BEE2/music/Water_Prelude.mp3"
-}
-
-"Music"
-{
-	"ID" "MM_STD_20"
-	"Name" "Welcome to HorrorLand"
-	"ShortName" "Welcome to"
-	"Sort_key" "20"
-	"Group" "More Music"
-	"Icon" "music/module_standard"
-	"IconLarge" "music_lrg/module_standard"
-	"Authors" "Kevin MacLeod"
-	"Description" "Welcome to HorrorLand duration: 4:10."
-	"Sample" "Welcome_to_HorrorLand.ogg"
-	"loop_len" "4:10"
-	"SoundScript" "BEE2/music/Welcome_to_HorrorLand.mp3"
+	"SoundScript" 
+	{
+		"tBeam" "BEE2/music/Water_Prelude.mp3"
+		"base" "BEE2/music/Water_Prelude.mp3"
+	}
 }
 
 "Music"
 {
 	"ID" "MM_STD_21"
-	"Name" "Beauty Flow"
-	"ShortName" "Beauty Flow"
-	"Sort_key" "21"
-	"Group" "More Music"
-	"Icon" "music/module_standard"
-	"IconLarge" "music_lrg/module_standard"
-	"Authors" "Kevin MacLeod"
-	"Description" "beauty flow duration: 7:13."
-	"Sample" "beauty-flow.ogg"
-	"loop_len" "7:13"
-	"SoundScript" "BEE2/music/beauty-flow.mp3"
-}
-
-"Music"
-{
-	"ID" "MM_STD_22"
 	"Name" "inspired"
 	"ShortName" "inspired"
-	"Sort_key" "22"
+	"Sort_key" "18"
 	"Group" "More Music"
 	"Icon" "music/module_standard"
 	"IconLarge" "music_lrg/module_standard"
@@ -563,7 +523,8 @@
 	"SoundScript"
 	{
 		"tBeam" "BEE2/p2_music/05-Excursion_Funnel.mp3"
-		"base" "BEE2/p2_music/05-Excursion_Funnel.mp3"
+		"BounceGel" "BEE2/p2_music/05-Excursion_Funnel.mp3"
+		"SpeedGel" "BEE2/p2_music/05-Excursion_Funnel.mp3"
 	}
 }
 
@@ -708,7 +669,11 @@
 	"Description" "Hard Sunshine duration: 2:48."
 	"Sample" "soundtrack/16-Hard_Sunshine.ogg"
 	"loop_len" "2:48"
-	"SoundScript" "BEE2/p2_music/16-Hard_Sunshine.mp3"
+	"SoundScript"
+	{
+		"tBeam" "BEE2/p2_music/16-Hard_Sunshine.mp3"
+		"BounceGel" "BEE2/p2_music/16-Hard_Sunshine.mp3"
+	}
 }
 
 "Music"
@@ -724,7 +689,12 @@
 	"Description" "Some Assembly Required duration: 1:50."
 	"Sample" "soundtrack/16-Some_Assembly_Required.ogg"
 	"loop_len" "1:50"
-	"SoundScript" "BEE2/p2_music/16-Some_Assembly_Required.mp3"
+	"SoundScript"
+	{
+		"tBeam" 	"BEE2/p2_music/16-Some_Assembly_Required.mp3"
+		"BounceGel" "BEE2/p2_music/16-Some_Assembly_Required.mp3"
+		"SpeedGel"	"BEE2/p2_music/16-Some_Assembly_Required.mp3"
+	}
 }
 
 "Music"
@@ -745,18 +715,24 @@
 
 "Music"
 {
-	"ID" "MM_P2ST_18"
-	"Name" "I Made It All Up"
-	"ShortName" "I Mad It All Up"
-	"Sort_key" "19"
-	"Group" "MM P2 SoundTrack"
-	"Icon" "music/module_P2_soundtrack"
-	"IconLarge" "music_lrg/module_P2_soundtrack"
-	"Authors" "VALVe"
-	"Description" "I Made It All Up duration: 3:56."
-	"Sample" "soundtrack/20-I_Made_It_All_Up.ogg"
-	"loop_len" "3:56"
-	"SoundScript" "BEE2/p2_music/20-I_Made_It_All_Up.mp3"
+	"ID" 			"MM_P2ST_18"
+	"Name" 			"I Made It All Up"
+	"ShortName" 	"I Mad It All Up"
+	"Sort_key" 		"19"
+	"Group" 		"MM P2 SoundTrack"
+	"Icon" 			"music/module_P2_soundtrack"
+	"IconLarge" 	"music_lrg/module_P2_soundtrack"
+	"Authors" 		"VALVe"
+	"Description" 	"I Made It All Up duration: 3:56."
+	"Sample" 		"soundtrack/20-I_Made_It_All_Up.ogg"
+	"loop_len" 		"3:56"
+	"SoundScript"
+	{
+		"tBeam" 	"BEE2/p2_music/20-I_Made_It_All_Up.mp3"
+		"base" 		"BEE2/p2_music/20-I_Made_It_All_Up.mp3"
+		"BounceGel" "BEE2/p2_music/20-I_Made_It_All_Up.mp3"
+		"SpeedGel"	"BEE2/p2_music/20-I_Made_It_All_Up.mp3"
+	}
 }
 
 "Music"
@@ -788,5 +764,11 @@
 	"Description" "You Saved Science duration: 0:47."
 	"Sample" "soundtrack/23-You_Saved_Science.ogg"
 	"loop_len" "0:47"
-	"SoundScript" "BEE2/p2_music/23-You_Saved_Science.mp3"
+	"SoundScript" 
+	{
+		"tBeam" 	"BEE2/p2_music/23-You_Saved_Science.mp3"
+		"base" 		"BEE2/p2_music/23-You_Saved_Science.mp3"
+		"BounceGel" "BEE2/p2_music/23-You_Saved_Science.mp3"
+		"SpeedGel"	"BEE2/p2_music/23-You_Saved_Science.mp3"
+	}
 }
